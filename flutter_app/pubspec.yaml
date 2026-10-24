@@ -1,0 +1,28 @@
+name: location_tracker_flutter
+
+description: Real-time mobile GPS tracker built with Flutter.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  geolocator: ^13.0.0
+  permission_handler: ^11.3.0
+  http: ^1.2.2
+  shared_preferences: ^2.2.5
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
